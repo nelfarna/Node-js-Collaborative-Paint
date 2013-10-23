@@ -1,0 +1,62 @@
+extends layout
+
+block content
+  h4#clients
+  div#sizes
+    ul
+      li Size:
+      li
+        a#wd3
+      li
+        a#wd5
+      li
+        a#wd7
+      li
+        a#wd10
+      li
+        a#wd13
+      li
+        a#wd16
+      li
+        a#wd20
+  div#bg
+    ul
+      li BG Color:
+      li
+        a#darkslategray
+      li
+        a#gainsboro
+      li
+        a#white
+  br.clear
+  br
+  nav
+    ul
+      li
+        span#blue
+      li
+        span#green
+      li
+        span#red
+      li
+        span#gray
+      li
+        span#DarkTurquoise
+      li
+        span#yellow
+      li
+        span#brown
+      li
+        span#black
+      li
+        span#white
+      li
+        span#erase(title="Erase")
+      li
+        a#reset(title="Reset") 
+          img(src='images/refresh.png')
+  section
+    canvas(id="drawCanvas", width="600", height="600")
+  
+  
+      

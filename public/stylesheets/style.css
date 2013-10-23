@@ -1,0 +1,216 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	float:left;
+	margin:0;
+	color:#555555;
+	font-style: italic;
+	width:100px;
+	font-size:12px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+nav {
+	width:55px;
+	display:inline-block;
+	float:left;
+	
+}
+
+section {
+	
+	width:600px;
+	height:600px;
+	margin-left:0px;
+	padding:0;
+	display:inline-block;
+}
+
+
+ul {
+	list-style-type: none;
+	padding:0;
+	margin:0 0 0 1px;
+
+}
+
+
+ul li span {
+	display:block;
+	width:40px;
+	height:40px;
+	margin:0 0 10px;
+	padding:1px;
+	cursor:pointer;
+}
+
+
+#blue {
+	background: blue;
+}
+
+#red {
+	background: red;
+}
+
+#green {
+	background: green;
+}
+
+#magenta {
+	background: magenta;
+}
+
+#gray {
+	background: gray;
+}
+
+#gainsboro {
+	background: gainsboro;
+}
+
+#yellow {
+	background: yellow;
+}
+
+#brown {
+	background: brown;
+}
+
+#black {
+	background: black;
+}
+
+#DarkTurquoise {
+	background: darkturquoise;
+}
+
+#darkslategray {
+	background: darkslategray;
+}
+
+#white {
+	background: white;
+	padding:0;
+	border:1px solid #aaa;
+}
+
+ul li span:hover {
+	border:1px solid #000 !important;
+	padding:0;
+}
+
+#erase {
+	background:url(../images/eraser_icon.png);
+	background-size:40px 40px;
+}
+
+a#reset {
+	cursor:pointer;
+	width:40px;
+}
+
+a#reset img {
+	margin-top:50px;
+}
+
+#sizes ul, #bg ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+	margin-left:55px;
+	float:left;
+
+}
+
+#sizes ul li, #bg ul li {
+	display: inline;
+	text-align:center;
+}
+
+#sizes ul li a {
+	padding:15px;
+	width:30px;
+	height:30px;
+	margin:0;
+	background:transparent url(../images/size.png) center no-repeat;
+	cursor: pointer;
+}
+
+#sizes ul li a:hover {
+
+	background-color: #eee;
+}
+
+#bg ul li a {
+	padding:2px;
+	width:30px;
+	height:30px;
+	margin:3px;
+	display:inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	border:1px solid #999;
+}
+
+#bg ul li a:hover {
+	border:1px solid #0000ff;
+}
+
+
+#sizes #wd3 {
+	
+	background-size:3px 3px;
+	
+}
+
+#sizes #wd5 {
+	background-size:5px 5px;
+
+}
+
+#sizes #wd7 {
+	background-size:7px 7px;
+	
+}
+
+#sizes #wd10 {
+	background-size:10px 10px;
+	
+}
+
+#sizes #wd13 {
+	background-size:13px 13px;
+}
+
+#sizes #wd16 {
+	background-size:16px 16px;
+}
+
+#sizes #wd20 {
+	background-size:20px 20px;
+}
+
+.selected {
+	border:1px solid #000;
+	padding:0;
+}
+
+canvas {
+	border:2px solid #999;
+}
+
+.clear {
+	clear:both;
+}
+
+
+
+ 
