@@ -1,5 +1,5 @@
 
-$(function() {
+$(function() { 
 	var socket = io.connect('localhost:5000');
 	var canvas = document.getElementById('drawCanvas');
 	var context = canvas.getContext('2d');
