@@ -114,7 +114,10 @@ $(function() {
 	   	}
 	    $(this).closest('ul').find('span').not($(this))
 	       .removeClass('selected');
-	    $(this).addClass('selected');
+	       
+	    if(event.target.id !== 'reset') {
+	    	$(this).addClass('selected');
+	    }
 	 });
 
 	 $('a').click(function(event) {
