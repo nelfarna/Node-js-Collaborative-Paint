@@ -114,7 +114,7 @@ $(function() {
 	   	}
 	    $(this).closest('ul').find('span').not($(this))
 	       .removeClass('selected');
-	       
+
 	    if(event.target.id !== 'reset') {
 	    	$(this).addClass('selected');
 	    }
@@ -136,7 +136,7 @@ $(function() {
 
 	 });
 
-
+ 
 	 function clearCanvas () {
 	 	context.clearRect(0, 0, canvas.width, canvas.height);
 		resetBackground();
