@@ -8,7 +8,7 @@
  *
  */
 
-var PORT = 5000;
+var PORT = process.env.PORT || 5000;
 var IPADDRESS = "localhost";  // can set this to your private ip address to be used across a network
 
 var express = require('express');
@@ -21,7 +21,7 @@ var clientsConnected = 0;
 var drawPoints = [];
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+//app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
