@@ -8,8 +8,8 @@
  *
  */
 
-var PORT = 3000;
-var IPADDRESS = "0.0.0.0";  // can set this to your private ip address to be used across a network
+var PORT = 5000;
+var IPADDRESS = "localhost";  // can set this to your private ip address to be used across a network
 
 var express = require('express');
 var app = express();
