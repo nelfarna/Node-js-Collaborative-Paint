@@ -105,6 +105,9 @@ $(function() {
 	    if(event.target.id === 'erase') {
 	    	lColor = bgColor;
 	    	erasing = true;
+	    } else if (event.target.id === 'reset') {
+	    	clearCanvas();
+	 		socket.emit('reset');
 	    } else {
 	   		lColor = event.target.id;
 	   		erasing = false;
@@ -130,14 +133,10 @@ $(function() {
 
 	 });
 
-	 $('#reset').click(function(event) {
-	 	clearCanvas();
-	 	socket.emit('reset');
-	 });
 
 	 function clearCanvas () {
 	 	context.clearRect(0, 0, canvas.width, canvas.height);
-			resetBackground();
+		resetBackground();
 	 }
 
 	 function resetBackground () {

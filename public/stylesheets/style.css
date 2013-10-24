@@ -106,17 +106,12 @@ ul li span:hover {
 	padding:0;
 }
 
-#erase {
-	background:url(../images/eraser_icon.png);
-	background-size:40px 40px;
+#erase, #reset {
+	width: 40px;
 }
 
-a#reset {
-	cursor:pointer;
-	width:40px;
-}
 
-a#reset img {
+#reset img {
 	margin-top:50px;
 }
 

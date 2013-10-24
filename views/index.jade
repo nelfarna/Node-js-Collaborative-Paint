@@ -51,10 +51,11 @@ block content
       li
         span#white
       li
-        span#erase(title="Erase")
+        span(title="Erase")
+          img#erase(src='images/eraser_icon.png')
       li
-        a#reset(title="Reset") 
-          img(src='images/refresh.png')
+        span(title="Reset") 
+          img#reset(src='images/refresh.png')
   section
     canvas(id="drawCanvas", width="600", height="600")
   
