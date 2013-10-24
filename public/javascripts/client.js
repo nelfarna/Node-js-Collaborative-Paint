@@ -1,6 +1,6 @@
 
 $(function() { 
-	var socket = io.connect('localhost:5000');
+	var socket = io.connect(window.location.hostname);
 	var canvas = document.getElementById('drawCanvas');
 	var context = canvas.getContext('2d');
 	var timePrev = $.now();
